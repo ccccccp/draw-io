@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T07:06:05.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Unu9ukKcU86KJqV6OZ_f" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T10:58:51.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="dRFH9TZond8oV1oxu0dW" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,34 +7,31 @@
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-0" value="golive SDK 调用层" style="swimlane;startSize=20;horizontal=1;containerType=tree;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="910" width="760" height="940" as="geometry" />
         </mxCell>
-        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;goliveClient base Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ emitter?:clientEventNamesMap&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ join(joinOptions)// 加入房间&lt;br&gt;+ leave()// 离开房间&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ on(clientEventName, handler)// 绑定监听&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ off(clientEventName,handler?)// 取消监听&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ startCapture(captureOptions?)//开始捕获&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ stopCapture()// 停止捕获&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ publish(stream?)// 推流&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ renewToken(newToken)// 重新设置token&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;getVideoScreenshot():Promise// 获取截图&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ stopPreview()// 停止预览&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ startPreview()//开始预览&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ release()// 释放资源&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;getPoorState():boolean // 获取弱网状态&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updatePeerInfo(uid,uInfo)// 更新用户信息（用于双流判断等）&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLocalStream():LocalStream //获取本地流&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getRemoteStream():RemoteStream// 获取远端流&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="pRe1ASIrNN6ZLIfWkAg_-0" vertex="1">
+        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;goliveClient base Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&amp;nbsp; constructor(emitter:eventNamesMap)//构造函数&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;join(joinOptions)// 加入房间&lt;br&gt;leave()// 离开房间&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;on(clientEventName, handler)// 绑定监听&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;off(clientEventName,handler?)// 取消监听&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;startCapture(captureOptions?)//开始捕获&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;stopCapture()// 停止捕获&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;publish(stream?)// 推流&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;renewToken(newToken)// 重新设置token&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getVideoScreenshot():Promise// 获取截图&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;stopPreview()// 停止预览&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;startPreview()//开始预览&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;release()// 释放资源&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getPoorState():boolean // 获取弱网状态&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updatePeerInfo(uid,uInfo)// 更新用户信息（用于双流判断等）&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLocalStream():LocalStream //获取本地流&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getRemoteStream():RemoteStream// 获取远端流&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="pRe1ASIrNN6ZLIfWkAg_-0" vertex="1">
           <mxGeometry x="40" y="50" width="680" height="360" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="pRe1ASIrNN6ZLIfWkAg_-0" source="pRe1ASIrNN6ZLIfWkAg_-3" target="pRe1ASIrNN6ZLIfWkAg_-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-3" value="AgoraGoliveClientElectron" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-0" vertex="1">
-          <mxGeometry x="40" y="490" width="280" height="308" as="geometry">
+          <mxGeometry x="40" y="490" width="280" height="276" as="geometry">
             <mxRectangle x="70" y="307" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-4" value="+ peers: []&lt;br&gt;+ engine:any&lt;br&gt;+ localStream // 本地流对象&lt;br&gt;+ remoteStream // 远端流对象&lt;br&gt;+ upNetworkQuality:number // 网络质量&lt;br&gt;+&amp;nbsp;medium_layer_options:object // 双流参数&lt;br&gt;+&amp;nbsp;debugMode:bool// 调试模式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
+        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-4" value="peers: []&lt;br&gt;engine:any&lt;br&gt;localStream // 本地流对象&lt;br&gt;+ remoteStream // 远端流对象&lt;br&gt;upNetworkQuality:number // 网络质量&lt;br&gt;medium_layer_options:object // 双流参数&lt;br&gt;debugMode:bool// 调试模式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
           <mxGeometry y="26" width="280" height="164" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
           <mxGeometry y="190" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-31" value="+ constructor&lt;span style=&quot;background-color: initial;&quot;&gt;(emitter:eventNamesMap)//构造函数&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
-          <mxGeometry y="198" width="280" height="32" as="geometry" />
+        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-18" value="&lt;font color=&quot;#c0b4b4&quot;&gt;+ init&lt;span style=&quot;background-color: initial;&quot;&gt;()//初始化&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
+          <mxGeometry y="198" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-18" value="+ init&lt;span style=&quot;background-color: initial;&quot;&gt;()//初始化&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
-          <mxGeometry y="230" width="280" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-6" value="+&amp;nbsp;applyDoubleStream()//设置双流" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
-          <mxGeometry y="256" width="280" height="26" as="geometry" />
+        <mxCell id="pRe1ASIrNN6ZLIfWkAg_-6" value="&lt;font color=&quot;#a39999&quot;&gt;+&amp;nbsp;applyDoubleStream()//设置双流&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
+          <mxGeometry y="224" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-19" value="+&amp;nbsp;setHwEncoder(boolean) //设置硬编开关" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-3" vertex="1">
-          <mxGeometry y="282" width="280" height="26" as="geometry" />
+          <mxGeometry y="250" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;endArrow=block;endFill=0;" parent="pRe1ASIrNN6ZLIfWkAg_-0" source="pRe1ASIrNN6ZLIfWkAg_-8" target="pRe1ASIrNN6ZLIfWkAg_-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -58,7 +55,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-20" value="clientEventNames" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="50" y="1100" width="420" height="390" as="geometry" />
+          <mxGeometry x="50" y="1100" width="420" height="480" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-21" value="connectStateChange({prevState, currentState&lt;span style=&quot;background-color: initial;&quot;&gt;})// 连接状态改变&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-20" vertex="1">
           <mxGeometry y="30" width="420" height="30" as="geometry" />
@@ -95,6 +92,15 @@
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-43" value="restartIceError?// 媒体重连失败" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pRe1ASIrNN6ZLIfWkAg_-20" vertex="1">
           <mxGeometry y="360" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoqOCC51lGEYGqtlW3F-2" value="setPoorState?(bool) // 设置弱网状态" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pRe1ASIrNN6ZLIfWkAg_-20">
+          <mxGeometry y="390" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoqOCC51lGEYGqtlW3F-3" value="remoteVideoStats?(videoState) // 远端视频统计信息发生改变" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pRe1ASIrNN6ZLIfWkAg_-20">
+          <mxGeometry y="420" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGoqOCC51lGEYGqtlW3F-4" value="streamTypeChanged?(streamType) // 远端视频大小流发生改变" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pRe1ASIrNN6ZLIfWkAg_-20">
+          <mxGeometry y="450" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pRe1ASIrNN6ZLIfWkAg_-32" value="CONNECT_STATUS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="810" width="420" height="150" as="geometry" />
