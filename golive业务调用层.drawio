@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T10:01:37.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="d9OYhlpGc-CcEL346J-M" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T10:10:51.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UwjwSYfDEt6KOSKofrpj" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
             <mxRectangle x="770" y="90" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QQ3_77_toEDUwIlfS5X5-85" value="golive业务调用层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
+        <mxCell id="QQ3_77_toEDUwIlfS5X5-85" value="golive被业务调用层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
           <mxGeometry x="30" y="140" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-86" value="golive SDK调用层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
