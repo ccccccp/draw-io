@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T11:04:51.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VXOZYtAmZOsGECUnX1fe" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T10:01:37.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="d9OYhlpGc-CcEL346J-M" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -119,10 +119,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-42" value="golive业务调用层" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="290" y="90" width="250" height="464" as="geometry" />
+          <mxGeometry x="290" y="90" width="250" height="494" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-90" value="getters" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-42" vertex="1">
-          <mxGeometry y="26" width="250" height="180" as="geometry" />
+          <mxGeometry y="26" width="250" height="210" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-91" value="joined" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-90" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -133,14 +133,17 @@
         <mxCell id="QQ3_77_toEDUwIlfS5X5-93" value="roomId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-90" vertex="1">
           <mxGeometry y="90" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_6xhpbmVDxti92IpL_e4-1" value="baseClient // 获取SDK调用层client" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QQ3_77_toEDUwIlfS5X5-90">
+        <mxCell id="XCUvzn4cYwwrI4w752Xu-1" value="+ winPipMode // 新窗口画中画模式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QQ3_77_toEDUwIlfS5X5-90">
           <mxGeometry y="120" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QQ3_77_toEDUwIlfS5X5-94" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-90" vertex="1">
+        <mxCell id="_6xhpbmVDxti92IpL_e4-1" value="baseClient // 获取SDK调用层client" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-90" vertex="1">
           <mxGeometry y="150" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QQ3_77_toEDUwIlfS5X5-94" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-90" vertex="1">
+          <mxGeometry y="180" width="250" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-96" value="methods" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-42" vertex="1">
-          <mxGeometry y="206" width="250" height="180" as="geometry" />
+          <mxGeometry y="236" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-97" value="startShare" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-96" vertex="1">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -151,14 +154,14 @@
         <mxCell id="QQ3_77_toEDUwIlfS5X5-100" value="leave" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-96" vertex="1">
           <mxGeometry y="90" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_6xhpbmVDxti92IpL_e4-0" value="getLiverStreamObj()//获取推流者抽象流" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QQ3_77_toEDUwIlfS5X5-96">
+        <mxCell id="_6xhpbmVDxti92IpL_e4-0" value="getLiverStreamObj()//获取推流者抽象流" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-96" vertex="1">
           <mxGeometry y="120" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-99" value="getLiverDom()//&amp;nbsp;获取播放者DOM" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-96" vertex="1">
           <mxGeometry y="150" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QQ3_77_toEDUwIlfS5X5-101" value="propNames" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-42" vertex="1">
-          <mxGeometry y="386" width="250" height="78" as="geometry" />
+        <mxCell id="QQ3_77_toEDUwIlfS5X5-101" value="props" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-42" vertex="1">
+          <mxGeometry y="416" width="250" height="78" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-102" value="- _localStream" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-101" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
@@ -216,13 +219,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-85" value="golive业务调用层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
-          <mxGeometry x="30" y="50" width="360" height="50" as="geometry" />
+          <mxGeometry x="30" y="140" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-86" value="golive SDK调用层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
-          <mxGeometry x="30" y="130" width="360" height="50" as="geometry" />
+          <mxGeometry x="30" y="220" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-87" value="golive SDK层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
-          <mxGeometry x="30" y="210" width="360" height="50" as="geometry" />
+          <mxGeometry x="30" y="300" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XCUvzn4cYwwrI4w752Xu-0" value="UI层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QQ3_77_toEDUwIlfS5X5-32">
+          <mxGeometry x="30" y="50" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
