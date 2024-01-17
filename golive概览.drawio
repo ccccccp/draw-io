@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T11:57:17.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8z5jLJPv9Im_mglQ_3ti" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T12:01:47.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="o6zIfy365qsG9xhVg43w" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -167,7 +167,7 @@
             <mxRectangle x="770" y="90" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QQ3_77_toEDUwIlfS5X5-85" value="golive被业务调用层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
+        <mxCell id="QQ3_77_toEDUwIlfS5X5-85" value="golive 业务层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
           <mxGeometry x="30" y="140" width="360" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QQ3_77_toEDUwIlfS5X5-86" value="golive SDK调用层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
@@ -176,7 +176,7 @@
         <mxCell id="QQ3_77_toEDUwIlfS5X5-87" value="golive SDK层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
           <mxGeometry x="30" y="300" width="360" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XCUvzn4cYwwrI4w752Xu-0" value="UI层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="QQ3_77_toEDUwIlfS5X5-32">
+        <mxCell id="XCUvzn4cYwwrI4w752Xu-0" value="UI层" style="rounded=0;whiteSpace=wrap;html=1;" parent="QQ3_77_toEDUwIlfS5X5-32" vertex="1">
           <mxGeometry x="30" y="50" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
