@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T03:20:59.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QfGWUM_8psIW5R2R2qx4" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T07:10:12.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hh4lpJ2cWpEGiaiERVgk" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3506" dy="3889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4248" dy="4264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="-17zgCU0IKFu6_wS-CfS-0" value="Electron golive拉流画中画" style="swimlane;whiteSpace=wrap;html=1;startSize=23;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-80" y="-120" width="1260" height="860" as="geometry">
+          <mxGeometry x="-80" y="-120" width="1335" height="860" as="geometry">
             <mxRectangle x="-60" y="-140" width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -134,6 +134,9 @@
         </mxCell>
         <mxCell id="-17zgCU0IKFu6_wS-CfS-135" value="关闭窗口" style="text;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-17zgCU0IKFu6_wS-CfS-0">
           <mxGeometry x="910" y="490" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-17zgCU0IKFu6_wS-CfS-138" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;gradientDirection=east;fillColor=#ec2222;opacity=10;" vertex="1" parent="-17zgCU0IKFu6_wS-CfS-0">
+          <mxGeometry x="810" y="30" width="447.5" height="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
