@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T07:33:37.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="3gc-pbw5V-UA6P1sDlV_" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T07:38:40.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="cf0rtX7g-XGwnUD70QgL" version="22.1.21" type="github">
   <diagram name="第 1 页" id="FzOcBeNj3MInu65cjAIJ">
     <mxGraphModel dx="1050" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a7IkXdeOvBuVXZyOrHQX-97" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="a7IkXdeOvBuVXZyOrHQX-24" target="a7IkXdeOvBuVXZyOrHQX-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7IkXdeOvBuVXZyOrHQX-134" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="a7IkXdeOvBuVXZyOrHQX-24" target="a7IkXdeOvBuVXZyOrHQX-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a7IkXdeOvBuVXZyOrHQX-24" value="屏幕分享" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
@@ -294,6 +297,21 @@
         </mxCell>
         <mxCell id="a7IkXdeOvBuVXZyOrHQX-131" value="快速分享按钮" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="2050" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a7IkXdeOvBuVXZyOrHQX-136" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="a7IkXdeOvBuVXZyOrHQX-133" target="a7IkXdeOvBuVXZyOrHQX-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7IkXdeOvBuVXZyOrHQX-138" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="a7IkXdeOvBuVXZyOrHQX-133" target="a7IkXdeOvBuVXZyOrHQX-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7IkXdeOvBuVXZyOrHQX-133" value="SDK" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a7IkXdeOvBuVXZyOrHQX-135" value="自建" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a7IkXdeOvBuVXZyOrHQX-137" value="声网" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2200" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
