@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T06:30:22.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="96EGSMuVagYEY6UjsUWd" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T06:52:13.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="kfQymHt3SLysmV5hBe5s" version="23.1.6" type="github">
   <diagram name="第 1 页" id="f7INJ1mIibgS1OLAGRGq">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,46 +25,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-7" value="MessageList Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="90" width="280" height="630" as="geometry" />
+          <mxGeometry x="320" y="90" width="280" height="690" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-15" value="Props 组件参数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-7">
-          <mxGeometry y="26" width="280" height="316" as="geometry" />
+          <mxGeometry y="26" width="280" height="376" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-16" value="List:Array (原始消息LIST)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
           <mxGeometry y="26" width="280" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="w1ZklpOtE93hVU6Mlt67-60" value="chatType:Number (列表类型：私聊、频道)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
+          <mxGeometry y="56" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w1ZklpOtE93hVU6Mlt67-61" value="channelInfo|chatInfo:Object (频道信息或私聊信息)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
+          <mxGeometry y="86" width="280" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-11" value="isLoading: Boolean（loading状态）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="56" width="280" height="26" as="geometry" />
+          <mxGeometry y="116" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-27" value="showGuide:Boolean (欢迎语)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="82" width="280" height="26" as="geometry" />
+          <mxGeometry y="142" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-31" value="lastReadTime:Number (最后已读时间)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="108" width="280" height="26" as="geometry" />
+          <mxGeometry y="168" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-28" value="onClickToLast:Function (点击向下箭头)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="134" width="280" height="26" as="geometry" />
+          <mxGeometry y="194" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-50" value="hasMore:Boolean (是否有更多新消息)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="160" width="280" height="26" as="geometry" />
+          <mxGeometry y="220" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-49" value="hasHistory:Boolean (是否有更多历史消息)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="186" width="280" height="26" as="geometry" />
+          <mxGeometry y="246" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-52" value="onLoadMoreNext:Function (拉取底部新消息)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="212" width="280" height="26" as="geometry" />
+          <mxGeometry y="272" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-51" value="onLoadMorePrev:Function (拉取顶部历史消息)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="238" width="280" height="26" as="geometry" />
+          <mxGeometry y="298" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-53" value="isLoadMorePrev:Boolean (正在拉取顶部历史消息)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="264" width="280" height="26" as="geometry" />
+          <mxGeometry y="324" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-54" value="isLoadMoreNext:Boolean (正在拉取底部新消息)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-15">
-          <mxGeometry y="290" width="280" height="26" as="geometry" />
+          <mxGeometry y="350" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-23" value="stats 组件内部状态" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-7">
-          <mxGeometry y="342" width="280" height="288" as="geometry" />
+          <mxGeometry y="402" width="280" height="288" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-24" value="mentionSelfList:Array (@我的消息列表)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-23">
           <mxGeometry y="26" width="280" height="30" as="geometry" />
@@ -90,11 +96,11 @@
         <mxCell id="w1ZklpOtE93hVU6Mlt67-58" value="checkMentionSelfShow（校验是否显示@我）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-57">
           <mxGeometry y="26" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w1ZklpOtE93hVU6Mlt67-59" value="onClickMention（点击@我）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-57">
+        <mxCell id="w1ZklpOtE93hVU6Mlt67-59" value="setActiveMsg（设置选中消息）" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="w1ZklpOtE93hVU6Mlt67-57">
           <mxGeometry y="56" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-30" value="&lt;h1&gt;组件内部逻辑&lt;br&gt;&lt;/h1&gt;&lt;h2&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;滚动到底部按钮：&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;滚动高度超过一屏时显示&lt;/p&gt;&lt;h2&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;新消息数量：&lt;/b&gt;&lt;/font&gt;&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;计算方法：界面未读数 + 隐藏未读数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;界面未读数 = list中时间大于最后已读时间的消息数&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;隐藏未读数 = 向上滚动时裁剪的未读消息数量&lt;/p&gt;&lt;h2 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;@我按钮：&lt;/b&gt;&lt;/font&gt;&lt;/h2&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;显示逻辑：已读时间线下存在：@我的消息，且该消息未滑动到屏幕可视区域&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; 存储逻辑：mentions_list，存储消息ID&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; 计算时机：首次打开时、list发生变更时&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;监听滚动底部事件&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; 触发条件：&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 实时模式来新消息&lt;/p&gt;&lt;h2 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;新消息线：&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;显示逻辑：根据props传的时间戳跟消息的时间戳做对比&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;日期（年月日）：&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &lt;/span&gt;显示逻辑：在渲染消息列表时，对比当前消息和上一条消息是不是同一天，不是同一天则显示日期&lt;/p&gt;&lt;h3 style=&quot;border-color: var(--border-color);&quot;&gt;新消息线和日期线合并：&lt;/h3&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;新消息线和日期线同时命中时，显示新消息和日期合并线&lt;/p&gt;&lt;/div&gt;&lt;h2 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;消息选中状态：&lt;/font&gt;&lt;/h2&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;打开某条消息的菜单时，标记此消息为选中消息，（PC端右键消息也会标记）&lt;/p&gt;&lt;h3 style=&quot;border-color: var(--border-color);&quot;&gt;消息分组（头像、用户名、日期的隐藏逻辑）：&lt;/h3&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &lt;/span&gt;&lt;/span&gt;消息头隐藏逻辑：渲染消息时，当前消息跟上条消息是同一个人发的，且两条消息间隔时间小于5分钟&lt;br&gt;&lt;/p&gt;&lt;h3 style=&quot;border-color: var(--border-color);&quot;&gt;屏蔽消息头：&lt;/h3&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 显性屏蔽消息：渲染消息时，该消息的发送者在屏蔽名单，且上条消息不是被屏蔽消息，记录屏蔽消息头ID&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;屏蔽消息数量(gatherCount)&lt;span style=&quot;background-color: initial;&quot;&gt;：从该消息位置往后查找累计,如果是同一个被屏蔽人，累计gatherCount，不是则不累计&lt;/span&gt;&lt;/div&gt;&lt;h3 style=&quot;border-color: var(--border-color);&quot;&gt;屏蔽消息体（隐藏消息）：&lt;/h3&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;    &lt;/span&gt;&lt;/span&gt;当前消息是被屏蔽消息，且前一条消息是同一个人的消息则隐藏&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="120" width="880" height="1150" as="geometry" />
+          <mxGeometry x="660" y="120" width="880" height="1150" as="geometry" />
         </mxCell>
         <mxCell id="w1ZklpOtE93hVU6Mlt67-37" value="MessageList Container" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="1281" width="280" height="358" as="geometry" />
