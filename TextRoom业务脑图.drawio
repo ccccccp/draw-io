@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T10:35:31.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7DpW2rQK3wrSdtsKARTH" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T11:33:14.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="86LOjlb4t2UwoXgFzIDx" version="24.0.4" type="github">
   <diagram name="第 1 页" id="Pq2qe5ZXNrjBSunqA_Ei">
-    <mxGraphModel dx="1105" dy="-611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="-384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,8 +31,11 @@
             <mxPoint x="334" y="2830" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-122" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-8" target="Wo2Illc0mPIEC3RIEZ94-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Wo2Illc0mPIEC3RIEZ94-8" value="拖拽上传文件浮层" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="395" y="3292" width="140" height="30" as="geometry" />
+          <mxGeometry x="440" y="3400" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wo2Illc0mPIEC3RIEZ94-9" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-1" target="Wo2Illc0mPIEC3RIEZ94-8">
           <mxGeometry relative="1" as="geometry">
@@ -138,29 +141,25 @@
             <mxPoint x="510" y="2580" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wo2Illc0mPIEC3RIEZ94-36" value="文件" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="585" y="3228" width="70" height="30" as="geometry" />
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-36" value="拖拽中状态" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="650" y="3490" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wo2Illc0mPIEC3RIEZ94-37" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Wo2Illc0mPIEC3RIEZ94-36" parent="1" source="Wo2Illc0mPIEC3RIEZ94-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="3270" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wo2Illc0mPIEC3RIEZ94-38" value="图片" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="590" y="3292" width="70" height="30" as="geometry" />
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-117" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-38" target="Wo2Illc0mPIEC3RIEZ94-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wo2Illc0mPIEC3RIEZ94-39" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Wo2Illc0mPIEC3RIEZ94-38" parent="1" source="Wo2Illc0mPIEC3RIEZ94-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="545" y="3334" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-118" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-38" target="Wo2Illc0mPIEC3RIEZ94-115">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wo2Illc0mPIEC3RIEZ94-40" value="视频" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="595" y="3348" width="70" height="30" as="geometry" />
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-119" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-38" target="Wo2Illc0mPIEC3RIEZ94-116">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wo2Illc0mPIEC3RIEZ94-41" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Wo2Illc0mPIEC3RIEZ94-40" parent="1" source="Wo2Illc0mPIEC3RIEZ94-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="3390" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-38" value="上传弹框" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1098" y="3390" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wo2Illc0mPIEC3RIEZ94-44" value="消息右键菜单" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="630" y="2460" width="120" height="30" as="geometry" />
@@ -242,8 +241,17 @@
             <mxPoint x="650" y="3020" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-124" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-65" target="Wo2Illc0mPIEC3RIEZ94-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-128" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-65" target="Wo2Illc0mPIEC3RIEZ94-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-129" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-65" target="Wo2Illc0mPIEC3RIEZ94-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Wo2Illc0mPIEC3RIEZ94-65" value="正常状态" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="822" y="3198" width="90" height="30" as="geometry" />
+          <mxGeometry x="820" y="3260" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wo2Illc0mPIEC3RIEZ94-66" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Wo2Illc0mPIEC3RIEZ94-65" parent="1" source="Wo2Illc0mPIEC3RIEZ94-26">
           <mxGeometry relative="1" as="geometry">
@@ -421,6 +429,35 @@
         <mxCell id="Wo2Illc0mPIEC3RIEZ94-113" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Wo2Illc0mPIEC3RIEZ94-112" parent="1" source="Wo2Illc0mPIEC3RIEZ94-91">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1201" y="3160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-114" value="上传图片弹框" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3330" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-115" value="上传视频弹框" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1255" y="3400" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-116" value="上传文件弹框" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1250" y="3480" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-126" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-121" target="Wo2Illc0mPIEC3RIEZ94-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-121" value="松手状态" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="650" y="3330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-125" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wo2Illc0mPIEC3RIEZ94-123" target="Wo2Illc0mPIEC3RIEZ94-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-123" value="点击上传文件" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="940" y="3310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-130" value="发送" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="975" y="3220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wo2Illc0mPIEC3RIEZ94-131" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" target="Wo2Illc0mPIEC3RIEZ94-130" parent="1" source="Wo2Illc0mPIEC3RIEZ94-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="3240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
