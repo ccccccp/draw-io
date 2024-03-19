@@ -1,29 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T03:24:51.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7SYsrGluqmoTG7Ek1IRN" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T08:57:25.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Ubg1ZOmue01QPwvy-ro1" version="24.0.5" type="github">
   <diagram name="第 1 页" id="xygOAH6MBIrHNq8sIbGx">
-    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GrZASavfT9gNlR1lczgw-31" value="服务器开启免打扰" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-33" value="频道关闭免打扰" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="690" width="110" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-32" value="频道开启免打扰" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="440" width="110" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="GrZASavfT9gNlR1lczgw-1" value="IM消息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="280" width="120" height="80" as="geometry" />
+          <mxGeometry x="70" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GrZASavfT9gNlR1lczgw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GrZASavfT9gNlR1lczgw-2" target="GrZASavfT9gNlR1lczgw-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GrZASavfT9gNlR1lczgw-2" value="服务器免打扰" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="280" width="120" height="80" as="geometry" />
+          <mxGeometry x="320" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GrZASavfT9gNlR1lczgw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GrZASavfT9gNlR1lczgw-3" target="GrZASavfT9gNlR1lczgw-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GrZASavfT9gNlR1lczgw-3" value="频道免打扰" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="280" width="120" height="80" as="geometry" />
+          <mxGeometry x="550" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GrZASavfT9gNlR1lczgw-4" value="最终结果" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="280" width="120" height="80" as="geometry" />
+          <mxGeometry x="790" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GrZASavfT9gNlR1lczgw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GrZASavfT9gNlR1lczgw-1" target="GrZASavfT9gNlR1lczgw-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-8" value="红点、数字的判断思路" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-9" value="显示红点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="800" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-10" value="累加数字" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="535" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-15" value="不显示红点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="670" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-16" value="不累加数字" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="430" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-17" value="IM消息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-18" value="判断@我" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-19" value="mention me" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-20" value="mention my_role" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-21" value="mention all" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-22" value="mention oinline" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-25" value="累加红点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-26" value="累加数字" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-27" value="不累加红点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="370" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-28" value="不累加数字" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="66" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GrZASavfT9gNlR1lczgw-29" target="GrZASavfT9gNlR1lczgw-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="480" />
+              <mxPoint x="560" y="740" />
+              <mxPoint x="670" y="740" />
+              <mxPoint x="670" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-29" value="普通消息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-35" value="服务器关闭免打扰" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="580" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GrZASavfT9gNlR1lczgw-38" value="服务器开启/关闭免打扰" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="690" width="110" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
