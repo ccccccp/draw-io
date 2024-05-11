@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T09:37:27.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yfALIrCHE8a2szqRRc_1" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T09:50:04.286Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JUzPHIAVfcXmsYqsShx2" version="24.4.0" type="github">
   <diagram name="第 1 页" id="MlWBYYcz_Amrt26e3EOY">
     <mxGraphModel dx="3088" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -255,7 +255,7 @@
           <mxGeometry x="1220" y="875" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-71" value="策略操作" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="105" width="140" height="120" as="geometry" />
+          <mxGeometry x="-240" y="105" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-72" value="增加策略" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1FdEGZVKuYJ3ER-i7trT-71">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -265,6 +265,9 @@
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-74" value="删除策略" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1FdEGZVKuYJ3ER-i7trT-71">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FdEGZVKuYJ3ER-i7trT-266" value="初始化策略" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1FdEGZVKuYJ3ER-i7trT-71">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-75" value="策略结构" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="105" width="140" height="120" as="geometry" />
@@ -342,7 +345,7 @@
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-107" value="策略操作" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="1411" width="140" height="120" as="geometry" />
+          <mxGeometry x="-60" y="1411" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-108" value="增加策略" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1FdEGZVKuYJ3ER-i7trT-107">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -352,6 +355,9 @@
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-110" value="删除策略" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1FdEGZVKuYJ3ER-i7trT-107">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FdEGZVKuYJ3ER-i7trT-268" value="初始化策略" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1FdEGZVKuYJ3ER-i7trT-107">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-111" value="策略结构" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="1411" width="140" height="120" as="geometry" />
@@ -779,6 +785,18 @@
         </mxCell>
         <mxCell id="1FdEGZVKuYJ3ER-i7trT-246" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FdEGZVKuYJ3ER-i7trT-267" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;策略初始化&lt;/h1&gt;&lt;p&gt;用户策略:登录KOOK后初始化&lt;/p&gt;&lt;p&gt;服务器策略：切换到该服务器时初始化&lt;/p&gt;&lt;p&gt;安全策略：登录/加入语音&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="350" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1FdEGZVKuYJ3ER-i7trT-269" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;增加策略&lt;/h1&gt;&lt;p&gt;可根据服务端下发安全配置动态增加&lt;br&gt;或登录后初始化&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1FdEGZVKuYJ3ER-i7trT-270" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;删除策略&lt;/h1&gt;&lt;p&gt;可根据服务端下发安全配置动态删除&lt;br&gt;或不删除设置策略&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1FdEGZVKuYJ3ER-i7trT-271" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;设置策略&lt;/h1&gt;&lt;p&gt;可根据服务端下发安全配置动态设置&lt;/p&gt;&lt;p&gt;可根据WS信令动态设置（服务器/频道/全局配置/用户状态变更等）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
