@@ -96,7 +96,7 @@
             <mxPoint x="500" y="1425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QY5BAwuEEe1DumUVjGy9-31" value="start=newEnd - 100" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QY5BAwuEEe1DumUVjGy9-31" value="房止渲染消息过多&lt;br&gt;start=newEnd - 100" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1285" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QY5BAwuEEe1DumUVjGy9-33" value="disTimestamp位置到newEnd位置数据：&lt;br&gt;&lt;br&gt;msgId为createTime等于disTimestamp的消息id&lt;br&gt;pageSize可暂定30&lt;br&gt;拉取后，可以尝试连接上新消息，如果新消息跟后面消息有重叠，表示可以拼接上，这时候可以清除disTimestamp,&lt;div&gt;如果没拼接上（消息非连续）,则把disTimestamp设为请求数据最后一条消息的时间戳&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
