@@ -165,6 +165,9 @@
         <mxCell id="8sRJhOhqr5r2RVfqhqRd-44" value="是" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="465" y="914" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="8sRJhOhqr5r2RVfqhqRd-45" value="顶部加载历史消息" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="180" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
